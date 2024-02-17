@@ -3,11 +3,16 @@ body {
 }
 
 .navbar {
-    background-color: grey;
+    background-image: linear-gradient(gray,rgba(0, 0, 0, 0.888));
+}
+
+#cabecalho h1 {
+    color: rgb(233, 230, 230);
+    text-shadow: 5px 5px 5px black;
 }
 
 #cabecalho .nav .nav-link.active {
-    background-color: #fff;
+    background-color: #e1dedee8;
     color: black;
 }
 #cabecalho .nav .nav-link, .navbar-brand {
@@ -17,6 +22,10 @@ body {
 .img {
     width: 100vw;
     height: 90vh;
+}
+
+.img-icone {
+    width: 5vw;
 }
 
 .title {
